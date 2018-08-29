@@ -1,0 +1,421 @@
+body {
+	background: #212121;
+	font-family: helvetica;
+	font-size: 12pt;
+	color: white;
+	line-height: 20pt;
+	margin: 0 auto;
+}
+
+#navigation {
+	background: black;
+
+}
+
+#header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 99999;
+}
+
+.logo-cel {
+	display: none;
+}
+
+@font-face {
+    font-family: "AlbertusMedium";
+    src: url(font/AlbertusMedium.ttf) format("truetype");
+    	 url('albertusmedium-webfont.woff2') format('woff2'),
+         url('albertusmedium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+ul.menu {
+	margin: 0;
+}
+
+.menu a{
+	color: white;
+	font-family: "AlbertusMedium";
+	font-size: 20pt;
+	text-decoration: none;
+}
+
+ul.menu>li {
+	display: inline-block;
+	margin: 10px 20px;
+}
+
+ul {
+	text-align: center;
+}
+
+.menu-rojo a {
+	color: #E81313;
+}
+
+#boton-banda {
+	position: relative;
+}
+
+#banda-desplegable {
+	text-align: left;
+	position: absolute;
+	background: black;
+	line-height: 30pt;
+	padding: 10px 25px;
+	display: none;
+}
+
+div#banda-desplegable ul {
+	padding: 0;
+}
+
+div#banda-desplegable ul li{
+	list-style: none;
+	text-align: left;
+}
+
+div#banda-desplegable ul li a {
+	font-size: 15pt;
+}
+
+#navigation ul li a {
+	transition: border-bottom 0.2s;
+}
+
+#navigation ul li a:hover {
+	border-bottom: solid #FFD500 3pt;
+}
+
+#navigation ul li:hover div#banda-desplegable {
+	display: block;
+}
+
+#banda-desplegable li {
+	padding-top: 10px;
+}
+
+video {
+	width: 100%;
+}
+
+h1 {
+	font-family: "AlbertusMedium";
+	font-size: 30pt;
+	padding: 25px;
+}
+
+.cuerpo-home img {
+	width: 100%;
+	border-bottom: solid #FFD500 30px;
+}
+
+.cuerpo-home>p {
+	margin: 80px;
+	text-align: justify;
+	line-height: 20pt;
+	color: white;
+}
+
+#album-titles {
+	text-align: center;
+	font-family: AlbertusMedium;
+	font-size: 15pt;
+	font-weight: bold;
+	color: white;
+}
+
+#album-pictures img {
+	text-align: center;
+	width: 314px;
+}
+
+#album-pictures td {
+	padding: 0;
+}
+
+
+#album-songs ol {
+	text-align: left;
+}
+
+.sexo {
+	display: inline-block;
+}
+
+.opciones {
+	display: block;
+}
+
+#fieldset-box {
+	width: 20%;
+	margin: 50px auto;
+	padding: 50px;
+	background-color: rgba(47,79,79, 0.5);
+	border: none;
+}
+
+main.band {
+	margin-top: 200px; 
+}
+
+.artistas {
+	margin: 80px 300px;
+	border-bottom: solid #FFD500 10px;
+	padding-bottom: 40px;
+	text-align: justify;
+}
+
+.artistas h2 {
+	font-family: AlbertusMedium;
+	margin-top: 80px;
+}
+
+.artistas img {
+	height: 400px;
+}
+
+.mark-alan p {
+	
+	margin-right: 40px;
+}
+
+#john h2 {
+	text-align: right;
+}
+
+#john p {
+	margin-left: 40px;
+}
+
+#noticias {
+	padding: 50px 80px;
+	background-image: url(fotos/the-dire-straits-experience.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#contenedor-noticias {
+	background-color: rgba(47,79,79, 0.5);
+}
+
+.columnas-noticias {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.articulo {
+	width: 30%;
+
+}
+
+#noticias p {
+	text-align: justify;
+}
+
+#noticias h1 {
+	margin: 0;
+}
+
+.left {
+	margin-left: 25px;
+	padding-right: 25px;
+}
+
+.center {
+	border-left: solid white 2px;
+	border-right: solid white 2px;
+	display: inline-block;
+	padding: 0 25px;
+	margin-right: 0;
+	margin-left: 0;
+}
+
+.right {
+	margin-right: 25px;
+	padding-left: 25px;
+}
+
+.up {
+	border-bottom: solid white 2px;
+}
+
+.bottom {
+	margin-bottom: 25px;
+}
+
+
+footer {
+	background-color: grey;
+	padding: 20px;
+	color: white;
+}
+
+.fa-copyright {
+	display: inline-block;
+}
+
+footer>p {
+	display: inline-block;
+}
+
+.socialmedia {
+	color: white;
+	float: right;
+	margin: 15px;
+}
+
+.socialmedia a {
+	color: white;
+}
+
+.fa-facebook-f {
+	background-color: #E81313;
+	border-radius: 25px;
+	padding: 10px;
+	width: 17px;
+	height: 17px;
+	text-align: center;
+	margin-left: 5px;
+}
+
+.fa-twitter {
+	background-color: #E81313;
+	border-radius: 25px;
+	padding: 10px;
+	margin-left: 5px;
+}
+
+.fa-instagram {
+	background-color: #E81313;
+	border-radius: 25px;
+	padding: 10px;
+	margin-left: 5px;
+}
+
+
+
+
+
+.discografia {
+	display: flex;
+}
+
+.container-disco {
+	line-height: 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	position: relative;
+}
+
+.container-disco img {
+	width: 315px;
+	margin: 0 1px;
+}
+
+.nombre-disco {
+	position: absolute;
+	top: 331px;
+}
+.nombre-disco p {
+	font-family: AlbertusMedium;
+	font-size: 25px;
+	margin: 0 auto;
+	display: ;
+
+}
+
+.grid-discografia {
+	display: flex;
+}
+
+.contenedor-songs {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.album-songs {
+	line-height: 20pt; 
+	flex-basis: 16.66%;
+}
+
+
+
+
+
+
+form {
+	margin: 20 auto;
+	padding: 50px 80px;
+}
+
+.contacto {
+	background-image: url(fotos/the-dire-straits-experience.jpg);
+}
+
+
+
+
+
+
+
+
+#newsletter {
+	background-color: lightgrey;
+	padding: 30px 10px;
+	display: block;
+}
+
+#datos {
+	display: inline-block;
+	width: 50%;
+}
+
+#newsletter-title {
+	display: inline-block;
+}
+
+#email {
+	height: 25px; 
+	padding: 10px;
+	margin: 10px;
+	display: inline-block;
+}
+
+#email input {
+	height: 30px;
+}
+
+#emailbox {
+	padding-left: 10px;
+}
+
+#enviar {
+	color: white;
+	font-family: arial;
+	text-transform: uppercase;
+	font-weight: bold;
+	background-color: #66ccff;
+	width: 100px;
+	height: 25px;
+	display: inline-block;
+	margin: 15px;
+}
+
+
+
+
+
+
+
+.dropdown-menu {
+	color: white;
+	text-align: left;
+
+}
